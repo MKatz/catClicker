@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <h1>Click a cat. Save the world.</h1>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-success" id="btnFreak">Anxious</button>
+            <button type="button" class="btn btn-success" id="btnChill">Chill</button>
+            <button type="button" class="btn btn-success" id="btnHappy">Happy</button>
+            <button type="button" class="btn btn-success" id="btnGrumpy">Grumpy</button>
+            <button type="button" class="btn btn-success" id="btnFlying">Super</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6" style="display:none;" id="divFreak">
+                <button id="targetFreak" class="btn btn-default">
+                    <img src="http://s.likes-media.com/img/a62f1fa90f7dfa5760e40e4a817bc2a6.600x.jpg" class="img-responsive">
+                </button>
+                <h3>Anxious cat has been clicked <span id="outputFreak">0</span> times.</h3>
+            </div>
+            <div class="col-md-6" style="display:none;" id="divChill">
+                <button id="targetChill" class="btn btn-default">
+                    <img src="http://amazingtails.net/wp-content/uploads/2014/05/Laid-Back-Cat.jpg" class="img-responsive">
+                </button>
+                <h3>Chill cat has been clicked <span id="outputChill">0</span> times.</h3>
+            </div>
+            <div class="col-md-6" style="display:none;" id="divHappy">
+                <button id="targetHappy" class="btn btn-default">
+                    <img src="http://www.whydidyouwearthat.com/wp-content/uploads//2012/05/happy-cat.jpg" class="img-responsive">
+                </button>
+                <h3>Happy cat has been clicked <span id="outputHappy">0</span> times.</h3>
+            </div>
+            <div class="col-md-6" style="display:none;" id="divGrumpy">
+                <button id="targetGrumpy" class="btn btn-default">
+                    <img src="http://animalsadda.com/wp-content/uploads/2015/03/Grumpy-Cat-6.jpg" class="img-responsive">
+                </button>
+                <h3>Grumpy cat has been clicked <span id="outputGrumpy">0</span> times.</h3>
+            </div>
+            <div class="col-md-6" style="display:none;" id="divFlying">
+                <button id="targetFlying" class="btn btn-default">
+                    <img src="http://i.imgur.com/zGTjZ.jpg" class="img-responsive">
+                </button>
+                <h3>Super cat has been clicked <span id="outputFlying">0</span> times.</h3>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/click.js"></script>
+  </body>
+</html>
